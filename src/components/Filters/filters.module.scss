@@ -1,0 +1,27 @@
+.filtersButtons{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin-block: 10px;
+
+    &__button,
+    &__activeButton{
+        font-size: 20px;
+        padding-inline: 8px;
+        padding-block: 5px;
+        border-radius: 7px;
+        transition-duration: 2ms;
+
+        &:hover{
+            background-color: #0a0b10;
+        }
+    }
+
+    &__button{
+        background-color: #191A23;
+    }
+
+    &__activeButton{
+        background-color: #0a0b10;
+    }
+}

@@ -1,0 +1,25 @@
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4e4f5e;
+    padding: 12px;
+    border-radius: 7px;
+
+    &__checkbox{
+        width: 25px;
+        height: 25px;   
+    }
+
+    &__text{
+        padding-inline: 15px;
+        font-size: 20px;
+        word-break: break-word;
+    }
+
+    &__button{
+        background-color: #b02828;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
